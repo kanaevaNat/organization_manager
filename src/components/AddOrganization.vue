@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1 class="text-h4 mb-4">Место проведения</h1>
+    <h1 class="text-h4 mb-4">Добавление новой организации</h1>
     <v-form @submit.prevent="submitForm" ref="formRef">
       <v-text-field
           v-model="form.name"

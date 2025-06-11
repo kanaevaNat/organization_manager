@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <h1 class="text-h4 mb-4">Список мероприятий</h1>
-    <v-btn to="/add" color="primary" class="mb-4">Добавить мероприятие</v-btn>
+    <h1 class="text-h4 mb-4">Список организаций</h1>
+    <v-btn to="/add" color="primary" class="mb-4">Добавить</v-btn>
     <OrganizationTable />
   </v-container>
 </template>

@@ -19,7 +19,7 @@ export const useOrganizationStore = defineStore('organization', {
     actions: {
         resetPagination() {
             this.page = 1
-            this.pageSize = 50
+            this.pageSize = 10
         },
         async fetchOrganizations() {
             this.loading = true;
