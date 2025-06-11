@@ -1,5 +1,68 @@
-# Vue 3 + Vite
+# Organization_manager
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Реализация веб-приложения для управления списком организаций
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Используемые технологии:
+1. Фреймфорк - VueJS v3
+2. Библиотеки - Vuetify, Pinia, Axios, Vue Router
+3. Инструменты - Vite
+
+# Project overview
+
+В проекте реализрованы два основных компонента.
+
+## OrganizationTable.vue
+
+Является страницей отображения списка организаций.
+
+Реализованные список организаций, сортировка и пагинация хранятся в Pinia.
+
+### Демонстрация
+1. Сортировка по полю id с pageSize = 10
+
+
+![sortById example](/screenshots/sortById.png?raw=true "sortById example")
+
+2. Сортировка по полю id с pageSize = 5 и page=2
+
+
+![sortByIdWithPagination example](/screenshots/sortByIdWithPagination.png?raw=true "sortByIdWithPagination example")
+
+3. Сортировка по полю name
+
+
+![sortByName example](/screenshots/sortByName.png?raw=true "sortByName example")
+
+
+# How to run
+
+### Install requirements
+
+1. Node.js (версия 18.x или выше)
+2. npm или yarn
+
+### Installation and Development
+
+1. Клонируйте репозиторий:
+
+```git clone https://github.com/kanaevaNat/organization_manager.git```
+
+2. Перейдите в папку проекта:
+
+```cd organization_manager```
+
+3. Установите зависимости:
+
+```
+npm install
+# или
+yarn install
+```
+
+4. Запустите локальный сервер:
+
+```
+npm run dev
+# или
+yarn dev
+```
