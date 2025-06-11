@@ -34,6 +34,35 @@
 ![sortByName example](/screenshots/sortByName.png?raw=true "sortByName example")
 
 
+## AddOrganization.vue
+
+Является страницей для добавления новой организации.
+
+Реализовано добавление изображения к организации.
+
+Реализована валидация по нескольким параметрам для всех полей, в том числе для изображения.
+
+
+### Демонстрация
+1. Валидация формы
+
+
+![validationForm example](/screenshots/validationForm.png?raw=true "validationForm example")
+
+2. Добавление новой организации
+
+
+![addOrganization example](/screenshots/addOrganization.png?raw=true "addOrganization example")
+
+3. Список организаций после добавления
+
+
+![organizationTableAfterAdd example](/screenshots/organizationTableAfterAdd.png?raw=true "organizationTableAfterAdd example")
+
+4. Api после добавления
+
+
+![apiAfterAdd example](/screenshots/apiAfterAdd.png?raw=true "apiAfterAdd example")
 # How to run
 
 ### Install requirements
